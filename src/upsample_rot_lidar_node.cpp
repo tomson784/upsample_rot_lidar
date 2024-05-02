@@ -9,7 +9,7 @@
 
 int main(int argc, char *argv[])
 {
-    ros::init(argc, argv, "nmea_to_geopose_node");
+    ros::init(argc, argv, "upsample_rot_lidar_node");
     google::InitGoogleLogging(argv[0]);
     google::InstallFailureSignalHandler();
     ros::NodeHandle nh;
